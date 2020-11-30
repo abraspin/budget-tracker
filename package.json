@@ -38,10 +38,6 @@
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
     "chart.js": "^2.8.0",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.6",
     "webpack": "^5.5.1",
     "webpack-cli": "^4.2.0",
     "webpack-pwa-manifest": "^4.2.0"
