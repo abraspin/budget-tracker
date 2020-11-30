@@ -8,7 +8,7 @@ A full-stack expense tracker app built on NodeJS using ExpressJS, MongoDB, and M
 
 See your cumulative balance on a pretty graph!  
 
-Meets all requirements of a PWA (Progressive Web App) and includes downloadable and offline functionality!  
+Meets all requirements of a PWA (Progressive Web App) and includes downloadable and offline functionality.    
 
 
 ---
