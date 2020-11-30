@@ -18,7 +18,7 @@ request.onsuccess = function (event) {
 };
 
 request.onerror = function (event) {
-  console.log("Woops! " + event.target.errorCode);
+  console.log("Whoops! " + event.target.errorCode);
 };
 
 function saveRecord(record) {

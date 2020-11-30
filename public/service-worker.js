@@ -93,11 +93,12 @@
 
 const FILES_TO_CACHE = [
   "/",
-  "index.html",
+  "/index.html",
   "/styles.css",
   "/icons/icon-512x512.png",
-  "/dist/bundle.js",
-  "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
+  //   "/dist/bundle.js",
+  "/manifest.webmanifest",
+  //   "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css",
   "https://cdn.jsdelivr.net/npm/chart.js@2.8.0",
 ];
 
