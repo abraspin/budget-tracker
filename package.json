@@ -6,9 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "lite-server": "lite-server",
-    "webpack": "webpack",
-    "prestart": "npm run webpack"
+    "lite-server": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -26,10 +24,7 @@
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
-    "chart.js": "^2.8.0",
-    "webpack": "^5.5.1",
-    "webpack-cli": "^4.2.0",
-    "webpack-pwa-manifest": "^4.2.0"
+    "chart.js": "^2.8.0"
   },
   "devDependencies": {
     "compression": "^1.7.4",
@@ -37,9 +32,6 @@
     "lite-server": "^2.5.3",
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1",
-    "chart.js": "^2.8.0",
-    "webpack": "^5.5.1",
-    "webpack-cli": "^4.2.0",
-    "webpack-pwa-manifest": "^4.2.0"
+    "chart.js": "^2.8.0"
   }
 }
