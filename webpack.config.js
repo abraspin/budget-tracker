@@ -2,16 +2,19 @@ const WebpackPwaManifest = require("webpack-pwa-manifest");
 const path = require("path");
 
 const config = {
-  entry: "./public/index.js",
+  //   entry: "./public/index.js",
+  entry: path.join(__dirname, "public/index.js"),
   output: {
     //path.resolve? FIXME:TODO:
-    path: __dirname + "public/dist",
+    path: path.resolve(__dirname, "public/dist"),
+    // path: __dirname + "public/dist",
     filename: "bundle.js",
   },
   mode: "development",
 
   // configure webpack to use babel-loader to bundle our separate modules and transpile the code
   // refer to https://github.com/babel/babel-loader for more information on the settings
+
   module: {
     rules: [
       {
@@ -46,7 +49,7 @@ const config = {
       icons: [
         {
           src: path.resolve(__dirname, "public/icons/icon-512x512.png"),
-          sizes: [96, 128, 192, 256, 384, 512],
+          sizes: [192, 512],
           destination: path.join("assets", "icons"),
         },
       ],
