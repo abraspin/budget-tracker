@@ -93,6 +93,7 @@
 
 const FILES_TO_CACHE = [
   "/",
+  "index.html",
   "/styles.css",
   "/icons/icon-512x512.png",
   "/dist/bundle.js",
